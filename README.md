@@ -3,7 +3,7 @@ This repository shares the documentation and development kit of the View of Delf
 
 <div align="center">
 <figure>
-<img src="Figures/example_frame_2.png" alt="Prius sensor setup" width="800"/>
+<img src="docs/figures/example_frame_2.png" alt="Prius sensor setup" width="800"/>
 <figcaption align = "center"><b>Example frame from our dataset with camera, LiDAR, 3+1D radar, and annotations overlaid.</b></figcaption>
 <\figure>
 </div>
@@ -17,13 +17,13 @@ The provided LiDAR point-clouds are already ego-motion compensated. More specifi
 
 We also provide intrinsic calibration for the camera and extrinsic calibration of all three sensors in a format specified by the annotating party.
 
-<img src="Figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="800"/>
+<img src="docs/figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="800"/>
 
 ## Introduction
 
-<img src="Figures/sensors.gif" alt="Prius sensor setup" width="600"/>
+<img src="docs/figures/sensors.gif" alt="Prius sensor setup" width="600"/>
 
-<img src="Figures/labels.gif" alt="Prius sensor setup" width="600"/>
+<img src="docs/figures/labels.gif" alt="Prius sensor setup" width="600"/>
 
 ## Goal 
 
