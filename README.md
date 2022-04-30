@@ -1,4 +1,7 @@
+<img src="docs/figures/LOGO.png" align="right" width="20%">
+
 # The View of Delft dataset
+
 This repository shares the documentation and development kit of the View of Delft automotive dataset.
 
 <div align="center">
