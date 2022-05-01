@@ -35,6 +35,10 @@ We present the novel View-of-Delft (VoD) automotive dataset. It contains 8600 fr
 </p>
 </div>
 
+A short introduction video of the dataset can be found here (click the thumbnail below):
+
+[![Thumbnail of the demo video](https://img.youtube.com/vi/R8r3lrkicJ0/0.jpg)](https://www.youtube.com/watch?v=R8r3lrkicJ0)
+
 ## Sensors and data
 The LiDAR sensor is a Velodyne 64 operating at 10 Hz. The camera provides colored images of 1936 × 1216 pixels at around 12 Hz. The horizontal field of view is ~64° (± 32°), vertical field of view is ~ 44° (± 22°). Odometry is a filtered combination of several inputs: RTK GPS, IMU, and wheel odometry with a frame rate around 100 Hz. Odometry is given relative to the starting position at the beginning of the current sequence, not in absolute coordinates. Note that while camera and odometry operate at a higher frequency than the LiDAR sensor, timestamps of the LiDAR sensor were chosen as “lead”, and we provide the closest camera frame and odometry information available. 
 
