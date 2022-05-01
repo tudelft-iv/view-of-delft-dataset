@@ -1,7 +1,7 @@
 ## Annotation information
 
 # Type of Annotations
-We provide 3D bounding boxes with 9 degree of freedom (DoF):
+We annotated the data with 3D bounding boxes with 9 degree of freedom (DoF):
 * x, y, z: 3D location of the box's center 
 * l, w, h: length, width, height of the box
 * yaw, pitch, roll: orientation of the box
