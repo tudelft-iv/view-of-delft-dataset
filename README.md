@@ -48,19 +48,25 @@ We also provide intrinsic calibration for the camera and extrinsic calibration o
 
 ## Annotation
 
+The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
+
 ## Getting Started
 
-Please refer to [GETTING_STARTED.md](docs/GETTING_STARTED.md) to learn more usage about this project.
+Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn more usage about this project.
 
 ## Examples and Demos
 
-Please refer to [EXAMPLES.md](docs/GETTING_STARTED.md) to learn more usage about this project.
+Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, transformations, and visualization.
 
 ## License
 
+* TODO the development kit is realeased under the TBD license.
+* The dataset can be used by accepting the [Research Use License](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/).
 
 ## Acknowledgement
-
+* Annotation was done by [understand.ai](https://understand.ai), a subsidiary of DSpace.
+* This work was supported by the Dutch Science Foundation NWO-TTW, within the SafeVRU project (nr. 14667).
+* During our experiments, we used the OpenPCDET library both for training, and for evaluation purposes.
 
 ## Citation 
 If you find the dataset useful in your research, please consider citing it as:
