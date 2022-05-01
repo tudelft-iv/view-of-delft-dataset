@@ -1,8 +1,8 @@
 title: The View of Delft dataset
 description: Documentation and development kit
 show_downloads: true
-#remote_theme: tuur29/pages-themes-cayman
-theme: jekyll-theme-cayman
+remote_theme: tuur29/pages-themes-cayman
+#theme: jekyll-theme-cayman
 color:
   header: "#FFF"
   gradient_left: "#0076C2"
