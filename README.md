@@ -16,7 +16,7 @@ This repository shares the documentation and development kit of the View of Delf
 
 ## Overview
 - [Introduction](#introduction)
-- [Sensors and Data](docs/SENSORS.md)
+- [Sensors and Data](docs/SENSORS_AND_DATA.md)
 - [Annotation](docs/ANNOTATION.md)
 - [Getting Started](docs/GETTING_STARTED.md)
 - [Examples and Demo](docs/EXAMPLES.md)
@@ -56,7 +56,7 @@ We recorded the output of the following sensors:
 
 All sensors were jointly calibrated. See the figure below for a general overview of the sensor setup.
 
-For details about the sensors, the data streams, and the format of of the provided data, please refer to the [SENSORS and DATA](docs/SENSORS.md) documentation.
+For details about the sensors, the data streams, and the format of of the provided data, please refer to the [SENSORS and DATA](docs/SENSORS_AND_DATA.md) documentation.
 
 <div align="center">
 <img src="docs/figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="600"/>
