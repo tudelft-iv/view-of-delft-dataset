@@ -57,7 +57,7 @@ Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn m
 
 ## Examples and Demos
 
-Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, transformations, and visualization.
+Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, fething and applying transformations, and 2D/3D visualization.
 
 ## License
 
@@ -86,9 +86,10 @@ If you find the dataset useful in your research, please consider citing it as:
 
 
 ## Links
--[Original paper](https://ieeexplore.ieee.org/document/9699098)
--[Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
--[Visit our website](https://intelligent-vehicles.org/)
--[Reach Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
+- [Original paper](https://ieeexplore.ieee.org/document/9699098)
+- [The paper on Rearch Gate](https://www.researchgate.net/publication/358328092)
+- [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
+- [Visit our website](https://intelligent-vehicles.org/)
+- [Reach Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
 
 
