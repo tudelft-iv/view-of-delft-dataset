@@ -1,15 +1,20 @@
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: [The View of Delft dataset]
+description: [Documentation and development kit]
 show_downloads: true
 remote_theme: tuur29/pages-themes-cayman
 color:
   header: "#000"
-  gradient_left: "#e53935"
-  gradient_right: "#f57c00"
-logo_url: https://github.githubassets.com/images/icons/emoji/octocat.png
+  gradient_left: "#0076C2"
+  gradient_right: "#00B8C8"
+  link: "#0076C2" # this default to gradient_color
+  section_title: "#00A6D6" # this default to gradient_color
+logo_url: docs/figures/LOGO.png
+hide_first_title: false
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
-  zip_url: https://github.com/tuur29/pages-themes-cayman
-  zip_title: View Documentation
+  zip_url: https://github.com/tudelft-iv/view-of-delft-dataset/archive/refs/heads/main.zip
+  zip_title: Download the devkit
   zip_hide: false
   tar_hide: true
-  github_hide: true
+  github_hide: false
+
