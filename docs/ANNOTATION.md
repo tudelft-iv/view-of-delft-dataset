@@ -13,6 +13,7 @@ Annotation instructions with detailed descriptions of the classes and attributes
 For now, we will provide the annotation in KITTI format.
 
 # KITTI formatted labels
+[Example label definition here](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt).
 '''
 'Car' 
 '''
