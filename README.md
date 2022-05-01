@@ -21,7 +21,8 @@ This repository shares the documentation and development kit of the View of Delf
 - [Getting Started](docs/GETTING_STARTED.md)
 - [Examples and Demo](docs/EXAMPLES.md)
 - [Citation](#citation)
-
+- [Original paper](https://ieeexplore.ieee.org/document/9699098)
+- [Links](#links)
 
 ## Introduction
 
@@ -83,5 +84,11 @@ If you find the dataset useful in your research, please consider citing it as:
   doi={10.1109/LRA.2022.3147324}}
 ```
 
+
+## Links
+-[Original paper](https://ieeexplore.ieee.org/document/9699098)
+-[Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
+-[Visit our website](https://intelligent-vehicles.org/)
+-[Reach Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
 
 
