@@ -40,7 +40,7 @@ The View-of-Delft (VoD) dataset is a novel automotive dataset containing 8600 fr
 A short introduction video of the dataset can be found here (click the thumbnail below):
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=R8r3lrkicJ0"><img src="https://img.youtube.com/vi/R8r3lrkicJ0/0.jpg" alt="Thumbnail of the demo video"></a>
+  <a href="https://www.youtube.com/watch?v=R8r3lrkicJ0"><img src="docs/figures/thumbnail.png" alt="Thumbnail of the demo video"></a>
 </div>
 
 
