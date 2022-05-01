@@ -1,17 +1,36 @@
 ## Dataset Preparation
 We suggest to organize the dataset in the following way:
-* -TODO structure here-
 * -TODO maybe code here to create structure-
-
 
 ```
 View-of-Delft-Dataset (root)
-│   ├── lidar (kitti dataset where velodyne contains the LiDAR point clouds)
-│   │   │── ImageSets
-│   │   │── training
-│   │   │   ├──calib & velodyne & image_2 & label_2
-│   │   │── testing
-│   │   │   ├──calib & velodyne & image_2
+    ├── lidar (kitti dataset where velodyne contains the LiDAR point clouds)
+    │   │── ImageSets
+    │   │── training
+    │   │   ├──calib & velodyne & image_2 & label_2
+    │   │── testing
+    │       ├──calib & velodyne & image_2
+    | 
+    ├── radar (kitti dataset where velodyne contains the radar point clouds)
+    │   │── ImageSets
+    │   │── training
+    │   │   ├──calib & velodyne & image_2 & label_2
+    │   │── testing
+    │       ├──calib & velodyne & image_2
+    | 
+    ├── radar_3_scans (kitti dataset where velodyne contains the accumulated radar point clouds of 3 scans)
+    │   │── ImageSets
+    │   │── training
+    │   │   ├──calib & velodyne & image_2 & label_2
+    │   │── testing
+    │       ├──calib & velodyne & image_2
+    |
+    ├── radar_5_scans (kitti dataset where velodyne contains the radar point clouds of 5 scans)
+        │── ImageSets
+        │── training
+        │   ├──calib & velodyne & image_2 & label_2
+        │── testing
+            ├──calib & velodyne & image_2
 ```
 
 
@@ -40,4 +59,7 @@ pip install -r requirements.txt
 # or using Conda
 conda create --name vod-dataset --file requirements.txt
 ```
+
+### Usage
+After fetching both the data and the devkit, please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use them, including data loading, fetching and applying transformations, and 2D/3D visualization.
 
