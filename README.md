@@ -11,7 +11,6 @@ This repository shares the documentation and development kit of the View of Delf
 <br clear="left"/>
 <b>Example frame from our dataset with camera, LiDAR, 3+1D radar, and annotations overlaid.</b>
 </div>
-<br />
 
 
 ## Overview
