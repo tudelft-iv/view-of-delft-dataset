@@ -14,6 +14,8 @@ buttons:
   zip_url: https://github.com/tudelft-iv/view-of-delft-dataset/archive/refs/heads/main.zip
   zip_title: Download the devkit
   zip_hide: false
-  tar_hide: true
+  tar_hide: false
+  tar_title: Home page
+  tar_url: https://tudelft-iv.github.io/view-of-delft-dataset/
   github_hide: false
 
