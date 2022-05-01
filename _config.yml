@@ -3,7 +3,7 @@ description: [Documentation and development kit]
 show_downloads: true
 remote_theme: tuur29/pages-themes-cayman
 color:
-  header: "#000"
+  header: "#FFF"
   gradient_left: "#0076C2"
   gradient_right: "#00B8C8"
   link: "#0076C2" # this default to gradient_color
