@@ -1,5 +1,9 @@
 # Sensors and Data
 
+<div align="center">
+<img src="figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="500"/>
+</div>
+
 ## Camera
 The camera provides colored images of 1936 × 1216 pixels at around 30 Hz. The horizontal field of view is ~64° (± 32°), vertical field of view is ~ 44° (± 22°). 
 
@@ -17,3 +21,5 @@ We also provide intrinsic calibration for the camera and extrinsic calibration o
 
 ## Syncronization
 Output of the sensors were recorded in an asyncronus way (i.e. no connected triggering) with accurate, synced timestamps.
+
+
