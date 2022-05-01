@@ -8,7 +8,7 @@ color:
   gradient_right: "#00B8C8"
   link: "#0076C2" # this default to gradient_color
   section_title: "#00A6D6" # this default to gradient_color
-logo_url: docs/figures/LOGO.png
+logo_url: https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/docs/figures/LOGO.png
 hide_first_title: false
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
