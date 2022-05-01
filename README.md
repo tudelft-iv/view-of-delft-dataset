@@ -12,12 +12,12 @@ This repository shares the documentation and development kit of the View of Delf
 <b>Example frame from our dataset with camera, LiDAR, 3+1D radar, and annotations overlaid.</b>
 </div>
 <br />
-<br />
+
 
 ## Overview
 - [Introduction](#introduction)
 - [Sensors and Data](docs/SENSORS.md)
-- [Annotation](docs/ANNOTATIONS.md)
+- [Annotation](docs/ANNOTATION.md)
 - [Getting Started](docs/GETTING_STARTED.md)
 - [Examples and Demo](docs/EXAMPLES.md)
 - [Citation](#citation)
@@ -32,12 +32,17 @@ We present the novel View-of-Delft (VoD) automotive dataset. It contains 8600 fr
 <p float="center">
 <img src="docs/figures/sensors.gif" alt="Prius sensor setup" width="400"/>
 <img src="docs/figures/labels.gif" alt="Prius sensor setup" width="400"/>
+<br />
+<b>Example clip from our dataset with sensor data (left), and annotations (right) overlaid.</b>
 </p>
 </div>
 
 A short introduction video of the dataset can be found here (click the thumbnail below):
 
-[![Thumbnail of the demo video](https://img.youtube.com/vi/R8r3lrkicJ0/0.jpg)](https://www.youtube.com/watch?v=R8r3lrkicJ0)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=R8r3lrkicJ0"><img src="https://img.youtube.com/vi/R8r3lrkicJ0/0.jpg" alt="Thumbnail of the demo video"></a>
+</div>
+
 
 ## Sensors and data
 The LiDAR sensor is a Velodyne 64 operating at 10 Hz. The camera provides colored images of 1936 × 1216 pixels at around 12 Hz. The horizontal field of view is ~64° (± 32°), vertical field of view is ~ 44° (± 22°). Odometry is a filtered combination of several inputs: RTK GPS, IMU, and wheel odometry with a frame rate around 100 Hz. Odometry is given relative to the starting position at the beginning of the current sequence, not in absolute coordinates. Note that while camera and odometry operate at a higher frequency than the LiDAR sensor, timestamps of the LiDAR sensor were chosen as “lead”, and we provide the closest camera frame and odometry information available. 
@@ -55,13 +60,25 @@ We also provide intrinsic calibration for the camera and extrinsic calibration o
 
 The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
 
+## Access
+
+The dataset is made freely available for researchers. Access will be possible to request by filling this form:
+
+[Form to request access to the VoD dataset](TODO.md).
+
+By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license) and [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
+
+After validating the researcher’s association to a research institue, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
+
+In case of questions of problems, please send an email to <a.palffy at tudelft.nl>.
+
 ## Getting Started
 
 Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn more usage about this project.
 
 ## Examples and Demos
 
-Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, fething and applying transformations, and 2D/3D visualization.
+Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, fetching and applying transformations, and 2D/3D visualization.
 
 ## License
 
