@@ -36,7 +36,7 @@ Note that there are 3 important differences between VoD and KITTI labels:
 
 # Annotated area
 Any object of interest within 50 meters of the LiDAR sensor and partially or fully within the camera’s field of view (horizontal FoV: ±32°, vertical FoV: ± 22°). 
-was annotated with a six degree of freedom ( DoF) 3D bounding box. 
+was annotated.
 
 # Annotated classes
 13 object classes were annotated:
