@@ -18,10 +18,10 @@ This repository shares the documentation and development kit of the View of Delf
 
 ## Overview
 - [Introduction](#introduction)
-- [Sensors and Data](docs/SENSORS_AND_DATA.md)
-- [Annotation](docs/ANNOTATION.md)
-- [Getting Started](docs/GETTING_STARTED.md)
-- [Examples and Demo](docs/EXAMPLES.md)
+- [Sensors and Data](#sensors-and-data)
+- [Annotation](#annotation)
+- [Getting Started](#getting-started)
+- [Examples and Demo](#examples-and-demos)
 - [Citation](#citation)
 - [Original paper](https://ieeexplore.ieee.org/document/9699098)
 - [Code on Github](https://github.com/tudelft-iv/view-of-delft-dataset)
