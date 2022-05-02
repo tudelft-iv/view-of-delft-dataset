@@ -11,7 +11,10 @@ This repository shares the documentation and development kit of the View of Delf
 <br clear="left"/>
 <b>Example frame from our dataset with camera, LiDAR, 3+1D radar, and annotations overlaid.</b>
 </div>
+<br>
+<br>
 
+---
 
 ## Overview
 - [Introduction](#introduction)
@@ -23,6 +26,10 @@ This repository shares the documentation and development kit of the View of Delf
 - [Original paper](https://ieeexplore.ieee.org/document/9699098)
 - [Code on Github](https://github.com/tudelft-iv/view-of-delft-dataset)
 - [Links](#links)
+<br>
+<br>
+
+---
 
 ## Introduction
 
@@ -42,7 +49,10 @@ A short introduction video of the dataset can be found here (click the thumbnail
 <div align="center">
   <a href="https://www.youtube.com/watch?v=R8r3lrkicJ0"><img src="docs/figures/thumbnail.png" alt="Thumbnail of the demo video"></a>
 </div>
+<br>
+<br>
 
+---
 
 ## Sensors and data
 
@@ -60,11 +70,18 @@ For details about the sensors, the data streams, and the format of of the provid
 <div align="center">
 <img src="docs/figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="600"/>
 </div>
+<br>
+<br>
 
+---
 
 ## Annotation
 
 The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
+<br>
+<br>
+
+---
 
 ## Access
 
@@ -77,24 +94,44 @@ By requesting access, the researcher agrees to use and handle the data according
 After validating the researcher’s association to a research institue, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
 
 In case of questions of problems, please send an email to <a.palffy at tudelft.nl>.
+<br>
+<br>
+
+---
 
 ## Getting Started
 
-Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn more usage about this project.
+Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn how to organize the data and start using the development kit.
+<br>
+<br>
+
+---
 
 ## Examples and Demos
 
-Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use the dataset and the development kit, including data loading, fetching and applying transformations, and 2D/3D visualization.
+Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples (Jupyter Notebooks) of how to use the dataset and the development kit, including data loading, fetching and applying transformations, and 2D/3D visualization.
+<br>
+<br>
+
+---
 
 ## License
 
 * TODO the development kit is realeased under the TBD license.
 * The dataset can be used by accepting the [Research Use License](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/).
+<br>
+<br>
+
+---
 
 ## Acknowledgement
 * Annotation was done by [understand.ai](https://understand.ai), a subsidiary of DSpace.
 * This work was supported by the Dutch Science Foundation NWO-TTW, within the SafeVRU project (nr. 14667).
 * During our experiments, we used the OpenPCDET library both for training, and for evaluation purposes.
+<br>
+<br>
+
+---
 
 ## Citation 
 If you find the dataset useful in your research, please consider citing it as:
@@ -110,6 +147,10 @@ If you find the dataset useful in your research, please consider citing it as:
   pages={4961-4968},
   doi={10.1109/LRA.2022.3147324}}
 ```
+<br>
+<br>
+
+---
 
 
 ## Links
