@@ -10,7 +10,10 @@ The horizontal field of view is ~64° (± 32°), vertical field of view is ~ 44�
 
 ### Data format
 Images are stored in jpg files.
+<br>
+<br>
 
+---
 ## LiDAR
 The LiDAR sensor is a Velodyne 64 sensor mounted on the top of the vehicle, operating at 10 Hz.  
 The provided LiDAR point clouds are ego-motion compensated both for ego-motion during the scan (i.e. one full rotation of the LiDAR sensor) and ego-motion between the capture of LiDAR and camera data (i.e. overlaying camera and LiDAR data should give a consistent image).
@@ -19,7 +22,10 @@ The provided LiDAR point clouds are ego-motion compensated both for ego-motion d
 LiDAR point clouds are stored in bin files.  
 Each bin file contains a 360° scan in a form of a Nx4 array, where N is the number of points, and 4 is the number of features:
 `[x,y,z,reflectance]`
+<br>
+<br>
 
+---
 ## Radar
 The radar sensor is a ZF FRGen21 3+1D radar (∼13 Hz) mounted behind the front bumper.  
 The provided radar point clouds are ego-motion compensated for ego-motion between the capture of radar and camera data (i.e. overlaying camera and radar data should give a consistent image).
@@ -41,7 +47,10 @@ where `v_r` is the relative radial velocity, and `v_r_compensated` is the absolu
 `time` is the time id of the point, indicating which scan it originates from. E.g., a point from the current scan has a t = 0,
 while a point from the third most recent scan has a t = −2. 
 
+<br>
+<br>
 
+---
 ## Odometry
 Odometry is a filtered combination of several inputs: RTK GPS, IMU, and wheel odometry with a frame rate around 30 Hz. 
 
@@ -51,11 +60,17 @@ We provide odometry information as transformations. For convenience, three trans
 - odom to camera (local coordinate system)
 - UTM to camera  (Official [UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) coordinate system)
 
+<br>
+<br>
 
+---
 ## Calibration files
 We provide extrinsic calibration between the point cloud sensors (LiDAR, radar) and the camera in KITTI format.
 Further transformations, e.g. LiDAR to radar, or UTM to LiDAR can be derived with our devkit through the transformations described in the calibration files and the odometry data as shown in the examples.
+<br>
+<br>
 
+---
 ## Syncronization
 Output of the sensors were recorded in an asyncronus way (i.e. no connected triggering) with accurate, synced timestamps.  
 <br>
