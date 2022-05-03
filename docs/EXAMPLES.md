@@ -2,6 +2,9 @@
 
 We aim to share our data in a format very close to the KITTI dataset to make it easy to use for researchers.
 Thus, many open source tool designed for KITTI (e.g. data loaders, visualizations, detection libraries) should be directly applicable to the VoD dataset with no or minimal changes. 
+<br>
+
+---
 
 Nevertheless, we provide a python based development kit and a handful of examples of its usage in the form of jupyter notebooks for your convenience.
 
