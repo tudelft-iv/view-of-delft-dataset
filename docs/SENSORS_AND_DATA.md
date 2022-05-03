@@ -4,6 +4,10 @@
 <img src="figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="500"/>
 </div>
 
+<br>
+
+---
+
 ## Camera
 The camera provides colored, rectified images of 1936 × 1216 pixels at around 30 Hz.   
 The horizontal field of view is ~64° (± 32°), vertical field of view is ~ 44° (± 22°). 
