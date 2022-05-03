@@ -61,5 +61,5 @@ conda create --name vod-dataset --file requirements.txt
 ```
 
 ### Usage
-After fetching both the data and the devkit, please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples of how to use them, including data loading, fetching and applying transformations, and 2D/3D visualization.
+After fetching both the data and the devkit, please refer to this [EXAMPLES](EXAMPLES.md) manual for several examples of how to use them, including data loading, fetching and applying transformations, and 2D/3D visualization.
 
