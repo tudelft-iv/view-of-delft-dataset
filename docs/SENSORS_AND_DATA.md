@@ -77,7 +77,18 @@ Further transformations, e.g. LiDAR to radar, or UTM to LiDAR can be derived wit
 ---
 ## Syncronization
 Output of the sensors were recorded in an asyncronus way (i.e. no connected triggering) with accurate, synced timestamps.  
-<br>
-For convenience, we provide the dataset in synchronized “frames” similar to the  KITTI dataset, consisting of a LiDAR point cloud, a rectified mono-camera image, three radar point clouds, and a pose file describing the position of the egovehicle. Timestamps of the LiDAR sensor were chosen as lead, and we chose the closest camera, radar and odometry information available (maximum tolerated time difference is set to **0.04 seconds**).
+For convenience, we provide the dataset in synchronized “frames” similar to the  KITTI dataset, consisting of a: 
+- a rectified mono-camera image, 
+- a LiDAR point cloud,
+- three radar point clouds (single-, 3, and 5 scans), 
+- and a pose file describing the position of the egovehicle. 
+ 
+Timestamps of the LiDAR sensor were chosen as lead (~10 Hz), and we chose the closest camera, radar and odometry information available (maximum tolerated time difference is set to **0.04 seconds**).
 To get the best possible syncronization, we synced radar and camera data to the moment when the LiDAR sensor **scanned the middle of the camera field of view**.
+
+Corressponding  camera, radar, LiDAR, and pose messages (i.e. content of a frame) are connected via their filenames, see the [GETTING_STARTED](GETTING_STARTED.md) manual and the [EXAMPLES](EXAMPLES.md) manual.
+
+We also share the metadata of the syncronized messages, i.e. the original timestamp of each syncronized message in the frame.
+
+
 
