@@ -44,7 +44,7 @@ was annotated.
 - Pedestrian
 - Cyclist (including both the bycicle and the rider)
 - Rider (the human on the bycicle, motor, etc. separately)
-- Unused bycicle
+- Unused bicycle
 - Bicycle rack
 - Human depiction (e.g. statues)
 - Moped or scooter
