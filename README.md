@@ -129,6 +129,7 @@ Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples (J
 * Annotation was done by [understand.ai](https://understand.ai), a subsidiary of DSpace.
 * This work was supported by the Dutch Science Foundation NWO-TTW, within the SafeVRU project (nr. 14667).
 * During our experiments, we used the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) library both for training, and for evaluation purposes.
+* We thank Ronald Ensing, Balazs Szekeres, and Hidde Boekema for their extensive help developing this development kit.
 <br>
 <br>
 
