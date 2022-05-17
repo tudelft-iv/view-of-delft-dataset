@@ -20,6 +20,7 @@ This repository shares the documentation and development kit of the View of Delf
 - [Introduction](#introduction)
 - [Sensors and Data](#sensors-and-data)
 - [Annotation](#annotation)
+- [Access](#access)
 - [Getting Started](#getting-started)
 - [Examples and Demo](#examples-and-demos)
 - [Citation](#citation)
@@ -87,7 +88,7 @@ The dataset contains 3D bounding box annotations for 13 road user classes with o
 
 The dataset is made freely available for researchers. Access will be possible to request by filling this form:  
 
-[**Form to request access to the VoD dataset**](TODO.md)
+[**Form to request access to the VoD dataset**](https://forms.gle/fFz5EwPb7zqex9kX8)
 
 By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license) and [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
 
