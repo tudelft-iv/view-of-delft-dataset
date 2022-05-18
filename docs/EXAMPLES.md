@@ -9,9 +9,13 @@ Thus, many open source tool designed for KITTI (e.g. data loaders, visualization
 Nevertheless, we provide a python based development kit and a handful of examples of its usage in the form of jupyter notebooks for your convenience.
 
 ## Introduction to the data and the concept of frames
-This example shows how to load the different types of data belonging to a single frame, and exaplains what do they represent.
-- TODO link to notebook
-- TODO screenshot
+This example shows how to load the different types of data belonging to a single frame, and exaplains what do they represent using 3D plots.
+
+[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html)
+
+
+<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html" height="600" width="100%"></iframe></p>
+
 <br>
 
 ---
