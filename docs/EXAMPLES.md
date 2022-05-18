@@ -11,10 +11,10 @@ Nevertheless, we provide a python based development kit and a handful of example
 ## Introduction to the data and the concept of frames
 This example shows how to load the different types of data belonging to a single frame, and exaplains what do they represent using 3D plots.
 
-<p>[Link to the full example](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html)</p>
+[Link to the full example](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html)
 
   
-<p align="center" width: 75%><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html"></iframe></p>
+<p align="center"><iframe min-width: 25%; src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html"></iframe></p>
 
 <br>
 
