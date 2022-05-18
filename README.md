@@ -86,11 +86,11 @@ The dataset contains 3D bounding box annotations for 13 road user classes with o
 
 ## Access
 
-The dataset is made freely available for researchers. Access will be possible to request by filling this form:  
+The dataset is made freely available for non-commercial research purposes only. Eligibility to use the dataset is limited to Master- and PhD-students, and staff of academic and non-profit research institutions. Access will be possible to request by filling this form:  
 
 [**Form to request access to the VoD dataset**](https://forms.gle/fFz5EwPb7zqex9kX8)
 
-By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license) and [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
+By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license). See furthermore our [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
 
 After validating the researcher’s association to a research institue, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
 
