@@ -4,34 +4,34 @@ vod.visualization package
 Submodules
 ----------
 
-vod.visualization.visualization\_2d module
-------------------------------------------
+vod.visualization.helpers module
+--------------------------------
 
-.. automodule:: vod.visualization.visualization_2d
+.. automodule:: vod.visualization.helpers
    :members:
    :undoc-members:
    :show-inheritance:
 
-vod.visualization.visualization\_3d module
-------------------------------------------
+vod.visualization.settings module
+---------------------------------
 
-.. automodule:: vod.visualization.visualization_3d
+.. automodule:: vod.visualization.settings
    :members:
    :undoc-members:
    :show-inheritance:
 
-vod.visualization.visualization\_helpers module
------------------------------------------------
+vod.visualization.vis\_2d module
+--------------------------------
 
-.. automodule:: vod.visualization.visualization_helpers
+.. automodule:: vod.visualization.vis_2d
    :members:
    :undoc-members:
    :show-inheritance:
 
-vod.visualization.visualization\_settings module
-------------------------------------------------
+vod.visualization.vis\_3d module
+--------------------------------
 
-.. automodule:: vod.visualization.visualization_settings
+.. automodule:: vod.visualization.vis_3d
    :members:
    :undoc-members:
    :show-inheritance:

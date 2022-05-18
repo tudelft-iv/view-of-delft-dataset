@@ -4,26 +4,26 @@ vod.frame package
 Submodules
 ----------
 
-vod.frame.frame\_data\_loader module
-------------------------------------
+vod.frame.data\_loader module
+-----------------------------
 
-.. automodule:: vod.frame.frame_data_loader
+.. automodule:: vod.frame.data_loader
    :members:
    :undoc-members:
    :show-inheritance:
 
-vod.frame.frame\_labels module
-------------------------------
+vod.frame.labels module
+-----------------------
 
-.. automodule:: vod.frame.frame_labels
+.. automodule:: vod.frame.labels
    :members:
    :undoc-members:
    :show-inheritance:
 
-vod.frame.frame\_transformations module
----------------------------------------
+vod.frame.transformations module
+--------------------------------
 
-.. automodule:: vod.frame.frame_transformations
+.. automodule:: vod.frame.transformations
    :members:
    :undoc-members:
    :show-inheritance:
