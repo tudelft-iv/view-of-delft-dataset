@@ -1,0 +1,20 @@
+vod package
+===========
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   vod.configuration
+   vod.frame
+   vod.visualization
+
+Module contents
+---------------
+
+.. automodule:: vod
+   :members:
+   :undoc-members:
+   :show-inheritance:

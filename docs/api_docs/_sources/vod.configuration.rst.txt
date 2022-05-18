@@ -1,0 +1,21 @@
+vod.configuration package
+=========================
+
+Submodules
+----------
+
+vod.configuration.file\_locations module
+----------------------------------------
+
+.. automodule:: vod.configuration.file_locations
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: vod.configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
