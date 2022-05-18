@@ -11,10 +11,10 @@ Nevertheless, we provide a python based development kit and a handful of example
 ## 1_frame_information - Introduction to the data
 This example introduces the classes that help to load data from the dataset for a specific frame. The visualization of the data is also included to aid understanding. Below is the embedded verison of the notebook, with a link attached for fullscreen view. 
 
-[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html)
+[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/1_frame_information/1_frame_information.html)
 
 
-<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html" height="600" width="100%"></iframe></p>
+<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/1_frame_information/1_frame_information.html" height="600" width="100%"></iframe></p>
 
 <br>
 
@@ -23,10 +23,10 @@ This example introduces the classes that help to load data from the dataset for 
 ## 2_frame_transformations - Transformations and localization
 We provide a package that helps the transformation between different coordinate frames with the development kit. This example shows how to load and use the transformations between these frames,e.g., sensors and world coordinates. Furthermore, it also directly demonstrates how to plot the vehicle's location on an aerial map. Similar to the first notebook, below is the embedded version of the notebook, with a link attached for a fullscreen view. 
 
-[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/2_frame_transformations/2_frame_transformations.html)
+[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/2_frame_transformations/2_frame_transformations.html)
 
 
-<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/2_frame_transformations/2_frame_transformations.html" height="600" width="100%"></iframe></p>
+<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/2_frame_transformations/2_frame_transformations.html" height="600" width="100%"></iframe></p>
 
 
 <br>
@@ -36,10 +36,10 @@ We provide a package that helps the transformation between different coordinate 
 ## 3_2d_visualization - 2D Visualization
 This example notebook shows how the development kit can be used to take a frame from the set, and visualize its image with its point clouds (radar and/or LiDAR), annotations projected and overlaid.
 
-[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/3_3d_visualization/3_2d_visualization.html)
+[Open example in full-screen](https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/3_3d_visualization/3_2d_visualization.html)
 
 
-<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/3_3d_visualization/3_2d_visualization.html" height="600" width="100%"></iframe></p>
+<p align="center"><iframe src="https://tudelft-iv.github.io/view-of-delft-dataset/docs/notebook_html/3_3d_visualization/3_2d_visualization.html" height="600" width="100%"></iframe></p>
 
 <br>
 

@@ -1,0 +1,55 @@
+<div id="canvasTarget_140525323922320" class="k3d_plot" style="position: relative;"></div>
+
+<script>
+  var K3DInstance;
+  var data_140525323922320 = 'eNrtVk1sG0UU3iQWLYgCahvgACgIpIpL6zbqAaXpumoUQKIh0CoHDqzGuy/xkPHOamfsOEHEhSC4GiK1Sg6UpBv/pk6rAJdEdbCpVGlLqYSEOKCQcgggIQRB/JQ/s7uzDo2SoFS9EGAke+d7M+/tft+8b+2hDA0/DypnJ+ale84oUaoBcb9jBE73NmvvrIgocTAZpnp63+69wd3Bgr+ooygUnvLKHHEDBSWOoU9RaUznc5MCiAJzb1+PauXeyouoW2curVJCTTZkaYij9++VpKrkfVZepAmN9xuQjmGdN++bYBFkwOu3nFNp1DCBuUUVAnEgUj4CSFO8mpeqOQ8wPAC2/K3kjXGsfShJycsjg3ZnnqCwQ2fFetqLsVSeYB2UPqzxiC2/MnD1seLOFyZ9bRA3ccJ/4JAkHZelVWPjMUEs000oWmb2RiBgeeJMUhP3YL3GJyNgTayHb/+6KbRwMtG6/9Rwab35mvUbGiwv2uUcoSN+NsZAcbWqZOIiUrvD3b8l5emmCy2Hn2s80HL1wszIH0n5q5MPtTz9QOPsteCume2/J+V17pCJY4bDBCrz0s5/QqNNeCJedrtpjb6p9cXoljuuZDBTIjxKyjnRIGGaqIjzSDv7OTUqWYMyzJ3sYTsUuP8lc3/jQVue2v7rL9d2GHZpiS2ONzQHp0zoBhN0FRSDOn07TsKW6LUFcfgWhwSfMJGGTO84rGMOvk62/7I/R7feedem96e0gXFz/lz91KvxpvLnperfmHPkhz2pGzJnTYTVkw2ak+D/zbmGOQPlK5venLcuxOX6Y9sObvtu+vx685sz51Cpfpb+mCy9OtB34LXiUuttb748+9kjg6VdwUH5i58uzuz9cqn132PO0S2BG/vllL/5tO6+T97VbPm9/PGOrS+et0sfDz54qv3zPRszZ1p1CptoDXfm1EhM730SM56yDEL5vNR0Rmw+FOO0HfNK1qXmymK5k2IU9FiXm4wJ5v2VQo+JtdpWD3T5lS0XnKhWq3V1dTl3flj8qVhcXBSG8HFbW1sO6RwjghFrmGKqCaCzCOVHVUTADvkdnFcJINPPcaoWVYINA+s9nQTpwFJZgnsi3MG2/HONOY7C8lss222wI8DBLOcFP5dSjptI7Q0jQs56pxZGpmiDJ7SqhRLAhscSY/1jA75+qaK4dtBnKEccypM1/Cyl0XKhhjqRXj4ngNh41ADQlr0/JZbcHH/h+2Zv+OWddD/+kYhPi3gbirqE25FrnWViftNEwOX/Qb2UE5vbadwOdfjauVQeB2LAX2n+QxzSsfOecZosddoRyA49Klb/BN1GFj0=';
+
+  function loadScript(path, cb) {
+    var script = document.createElement('script');
+    script.src = path;
+    script.onload = cb;
+    script.onerror = cb;
+    document.head.appendChild(script);
+  }
+
+  function loadK3D() {
+    loadScript('https://unpkg.com/k3d@2.10.0/dist/standalone.js', function () {
+      require(['k3d'], function (lib) {
+        function _base64ToArrayBuffer(base64) {
+          var binary_string = window.atob(base64);
+          var len = binary_string.length;
+          var bytes = new Uint8Array(len);
+          for (var i = 0; i < len; i++) {
+            bytes[i] = binary_string.charCodeAt(i);
+          }
+          return bytes;
+        }
+
+        try {
+          document.getElementById('canvasTarget_140525323922320').style.cssText = [
+              `height:512px`,
+              'position: relative',
+          ].join(';');
+
+          K3DInstance = new lib.CreateK3DAndLoadBinarySnapshot(
+            _base64ToArrayBuffer(data_140525323922320),
+            document.getElementById('canvasTarget_140525323922320'),
+          );
+
+          K3DInstance.then(function (K3DInstance) {
+            
+          });
+        } catch (e) {
+          console.log(e);
+          return;
+        }
+      });
+    });
+  }
+
+  if (typeof (require) === 'undefined') {
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js', loadK3D);
+  } else {
+    loadK3D();
+  }
+</script>
