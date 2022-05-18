@@ -14,7 +14,7 @@ This example shows how to load the different types of data belonging to a single
 [Link to the full example](https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html)
 
   
-<p align="center"><iframe min-width: 25%; src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html"></iframe></p>
+<p align="center"><iframe width:'75%' height:'1000' src="https://tudelft-iv.github.io/view-of-delft-dataset/notebook_html/1_frame_information/1_frame_information.html"></iframe></p>
 
 <br>
 
