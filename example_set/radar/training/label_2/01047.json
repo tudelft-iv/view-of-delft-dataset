@@ -1,0 +1,710 @@
+[
+  {
+    "id": "738f354f-05de-4cdd-9f49-7e05d74fa2db",
+    "objectId": "4e30b11a-ab3a-4c90-97cf-d11cb5abd4bb",
+    "className": "rider",
+    "geometry": {
+      "size": {
+        "height": 1.503325462332693,
+        "width": 0.7167884312694952,
+        "length": 0.6358283468841199
+      },
+      "center": {
+        "x": 29.827179002569288,
+        "y": 1.1537584312800737,
+        "z": -0.05162116346179091
+      },
+      "quaternion": {
+        "x": -0.004829519298426241,
+        "y": -0.011557129072259397,
+        "z": 0.9962695394881804,
+        "w": -0.08538215972298992
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "067fd7f4-4c66-4c77-a6cc-73b7275e01d2",
+    "objectId": "85aef5cb-ec75-422c-8443-f596441b188d",
+    "className": "rider",
+    "geometry": {
+      "size": {
+        "height": 1.5093050365956393,
+        "width": 0.7147071097924309,
+        "length": 0.691662610661527
+      },
+      "center": {
+        "x": 44.500779461516196,
+        "y": 1.4930721285512945,
+        "z": 0.25930716719996694
+      },
+      "quaternion": {
+        "x": -0.01320616141645188,
+        "y": -0.009817232149298331,
+        "z": 0.9984530433561352,
+        "w": -0.05311063421237942
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "80-100%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "df925144-f94a-43c7-b303-d28b64b8245c",
+    "objectId": "ff42b0cb-58d3-40c3-b43a-fc1591c4b2bc",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.7232602354991824,
+        "width": 0.7369056498364389,
+        "length": 2.008079917225801
+      },
+      "center": {
+        "x": 7.207093407293836,
+        "y": -1.0262838241100476,
+        "z": -0.31309475469010417
+      },
+      "quaternion": {
+        "x": -0.0015932683366730808,
+        "y": -0.015470199877383928,
+        "z": 0.9996263255514775,
+        "w": -0.022479850449075075
+      }
+    },
+    "attributes": {
+      "has_rider": true,
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "47b025c2-68cd-4bff-9557-ea05acf14ded",
+    "objectId": "259955a3-15c2-44da-bbe7-103a5cd4de7d",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.1306064594576755,
+        "width": 0.4553150172951571,
+        "length": 1.868452220625382
+      },
+      "center": {
+        "x": 14.11357566562922,
+        "y": 4.755178940040398,
+        "z": 0.23952607726890718
+      },
+      "quaternion": {
+        "x": -0.029479905570117787,
+        "y": -0.00847997938860312,
+        "z": 0.7572326409149867,
+        "w": 0.6524245187376551
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "10-40%",
+      "spatial occlusion": "80-100%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "db1f60a9-a187-4644-975c-3828af601cb6",
+    "objectId": "37317d2e-ff14-4a02-9c0e-7d4ccb34491b",
+    "className": "moped_scooter",
+    "geometry": {
+      "size": {
+        "height": 1.120793055389803,
+        "width": 0.5456318089243678,
+        "length": 1.610393791217293
+      },
+      "center": {
+        "x": 24.31136012898127,
+        "y": 7.632856345291936,
+        "z": 0.42155457146617614
+      },
+      "quaternion": {
+        "x": -0.01716352231107105,
+        "y": -0.015774306872806343,
+        "z": 0.04677471240445547,
+        "w": 0.9986334217439553
+      }
+    },
+    "attributes": {
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "80-100%",
+      "has_rider": false
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "d2fe76e3-5e84-44ee-ab63-fbea22818f22",
+    "objectId": "90808cc3-1518-4fb8-b973-9469bc47894f",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.774252387425403,
+        "width": 0.6525969229842776,
+        "length": 0.6728356770402757
+      },
+      "center": {
+        "x": 48.84317411514815,
+        "y": -0.21669432913799613,
+        "z": 0.525538856919677
+      },
+      "quaternion": {
+        "x": 0.0004580505234998498,
+        "y": 0.002280999385956628,
+        "z": 0.9999840867258091,
+        "w": -0.005139409175045253
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "80-100%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "f67f715f-de92-46ad-898b-9ae041532e2b",
+    "objectId": "91436167-7b66-43c8-82ab-fccc4f78ffe7",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.6862560652883705,
+        "width": 0.772286995438641,
+        "length": 0.762881502749928
+      },
+      "center": {
+        "x": 39.495397960753714,
+        "y": 0.3046675648983531,
+        "z": 0.32748592256942266
+      },
+      "quaternion": {
+        "x": -0.006653563380327482,
+        "y": -0.003935841744212037,
+        "z": 0.9994724351371811,
+        "w": -0.03154505737927647
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "e81bf497-6b38-4ee4-9578-0989d87781d3",
+    "objectId": "13115040-d738-4844-9cdc-24f0622df194",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.5336230557640003,
+        "width": 0.6857072756658512,
+        "length": 0.7393217283133133
+      },
+      "center": {
+        "x": 39.77220015150044,
+        "y": -0.4264321985915456,
+        "z": 0.3010552194375813
+      },
+      "quaternion": {
+        "x": -0.009884628797414216,
+        "y": -0.0014002588611353628,
+        "z": 0.9995111297411774,
+        "w": -0.02962827892697305
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "10423233-7826-46e8-85e9-ecaa1e965b79",
+    "objectId": "33276d6b-e4d3-46cb-88bf-97cb72b18b7c",
+    "className": "car",
+    "geometry": {
+      "size": {
+        "height": 1.9223383609753752,
+        "width": 2.0535622747106395,
+        "length": 4.999146108042289
+      },
+      "center": {
+        "x": 5.77208730143815,
+        "y": 4.030474321843132,
+        "z": -0.3178766049034244
+      },
+      "quaternion": {
+        "x": 0.029175994549515992,
+        "y": -0.010294135210590815,
+        "z": 0.020387635535287215,
+        "w": 0.9993133324636437
+      }
+    },
+    "attributes": {
+      "activity": "parked",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "10-40%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "251acea8-c262-4022-9039-0755494455da",
+    "objectId": "8eaa540b-4e08-4b52-b50f-c5ba2c18e603",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.0824220998528118,
+        "width": 0.8762882937436578,
+        "length": 1.8772623285734167
+      },
+      "center": {
+        "x": 17.51743674505505,
+        "y": 5.106699540584808,
+        "z": 0.22090438970532245
+      },
+      "quaternion": {
+        "x": -0.01716708143370251,
+        "y": -0.006881956881788513,
+        "z": 0.69525686811898,
+        "w": 0.7185233589229463
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "090d7076-5440-48e5-8a74-74d55b004668",
+    "objectId": "c73f791f-d4c1-4ffd-8449-aeafb7cc26f2",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.0631886997120072,
+        "width": 0.6998266548552571,
+        "length": 1.868452220625382
+      },
+      "center": {
+        "x": 14.621854831610971,
+        "y": 4.872271441035662,
+        "z": 0.24333353253949963
+      },
+      "quaternion": {
+        "x": -0.017217492073283127,
+        "y": -0.01968893721760418,
+        "z": 0.7477645631943658,
+        "w": 0.6634486127415499
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "8b2e70a2-f8b1-4723-9dca-aa103b8110fd",
+    "objectId": "0f41007a-c5e4-4273-af2a-01ed296e7cbb",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.2557094419021744,
+        "width": 0.7177180596978504,
+        "length": 1.9975305364238725
+      },
+      "center": {
+        "x": 10.517183023812247,
+        "y": -2.6148358235263047,
+        "z": -0.29631597692011047
+      },
+      "quaternion": {
+        "x": 0.04701882631006391,
+        "y": 0.00298528064828167,
+        "z": -0.005166061929786989,
+        "w": 0.9988761834561942
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "d4381c6a-33b3-4c4c-84e3-89ec20345b3a",
+    "objectId": "da9b3e08-17e5-4a52-aa18-075fa6fe4ed5",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.4938938424966723,
+        "width": 0.7251624912588659,
+        "length": 1.8468303700523607
+      },
+      "center": {
+        "x": 23.084090296142225,
+        "y": 1.5626909989369515,
+        "z": 0.04566156540108057
+      },
+      "quaternion": {
+        "x": -0.01363062178562513,
+        "y": -0.01896160336165188,
+        "z": 0.9989964603530073,
+        "w": -0.03821957547978826
+      }
+    },
+    "attributes": {
+      "has_rider": true,
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "3e5beda0-504a-4f05-a57a-18b7bb223a19",
+    "objectId": "631d1b9e-752a-4601-91f7-e91d1c80b92d",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.7611009183453676,
+        "width": 0.7167884312694952,
+        "length": 1.9369806486623902
+      },
+      "center": {
+        "x": 29.823751555088613,
+        "y": 1.1463753308806852,
+        "z": 0.07895445637068566
+      },
+      "quaternion": {
+        "x": -0.004856754917311315,
+        "y": -0.011545710056982428,
+        "z": 0.9960654588908253,
+        "w": -0.08773089601481833
+      }
+    },
+    "attributes": {
+      "has_rider": true,
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "7e2276a6-4f46-4b56-b75e-5cf71ac8a5c7",
+    "objectId": "b42c2da7-c722-4989-99ec-02c5f4f92767",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.7121841929198378,
+        "width": 0.7147071097924309,
+        "length": 1.93280568464486
+      },
+      "center": {
+        "x": 44.688381598307174,
+        "y": 1.5109321252152956,
+        "z": 0.3563841346362362
+      },
+      "quaternion": {
+        "x": -0.0043153486923468605,
+        "y": -0.01366547821619859,
+        "z": 0.9982133549811611,
+        "w": -0.05800629627928799
+      }
+    },
+    "attributes": {
+      "has_rider": true,
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "80-100%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "3ed94525-fee0-4b2d-b824-e7adb5539f7c",
+    "objectId": "6764c860-4514-4651-a226-0db55cf88d9e",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.3631788328460905,
+        "width": 0.6437503279536867,
+        "length": 1.8688246861328557
+      },
+      "center": {
+        "x": 28.269956446044187,
+        "y": -2.1261632229151015,
+        "z": 0.01425319832594485
+      },
+      "quaternion": {
+        "x": -0.0042920452274379526,
+        "y": 0.006121179049037453,
+        "z": 0.999961476293977,
+        "w": -0.004599504623880052
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "10-40%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "c9c0f0b3-9db5-4327-8ad8-91ae3e0913d6",
+    "objectId": "7920527f-6272-4e39-9235-ac2cfe9e34db",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.1804225674273263,
+        "width": 0.6399992469074598,
+        "length": 1.8931490968949505
+      },
+      "center": {
+        "x": 30.58294251919971,
+        "y": 7.879951503124518,
+        "z": 0.6527458589194715
+      },
+      "quaternion": {
+        "x": -0.021772902526904198,
+        "y": -0.02014309100150785,
+        "z": 0.035744222748756556,
+        "w": 0.9989206911164401
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "2e932590-9996-40c5-ad89-a6e2f95b53d7",
+    "objectId": "b59fa099-ac7e-412b-b673-8259909c656a",
+    "className": "bicycle",
+    "geometry": {
+      "size": {
+        "height": 1.1047015382854124,
+        "width": 0.48576301993283627,
+        "length": 1.9860375560581018
+      },
+      "center": {
+        "x": 46.35801427644837,
+        "y": 8.96147089877044,
+        "z": 1.389615209082017
+      },
+      "quaternion": {
+        "x": -0.01906500991093009,
+        "y": 0.030541926308155463,
+        "z": 0.9983903339962644,
+        "w": -0.04382302040378801
+      }
+    },
+    "attributes": {
+      "has_rider": false,
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "80-100%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "7e4bf1f7-4db9-4532-8350-2e81f522d1ef",
+    "objectId": "d807502e-b355-463f-9f34-ae457e00ce4c",
+    "className": "bicycle_rack",
+    "geometry": {
+      "size": {
+        "height": 1.268117789243135,
+        "width": 1.717683497634262,
+        "length": 2.671099978044606
+      },
+      "center": {
+        "x": 10.42928293496877,
+        "y": 4.373578729048389,
+        "z": -0.01793001051349008
+      },
+      "quaternion": {
+        "x": -0.0054598263128486655,
+        "y": -0.007898498056588132,
+        "z": 0.8635935657659453,
+        "w": 0.5040971703875587
+      }
+    },
+    "attributes": {
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "261ad2c2-82bc-42a9-8a43-ede4f333a55a",
+    "objectId": "358e7ae4-bf86-4ff6-995a-907699f69334",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.2730600720660716,
+        "width": 0.7991163027486634,
+        "length": 0.6919306761146682
+      },
+      "center": {
+        "x": 27.769100793553346,
+        "y": 7.814203440438066,
+        "z": 0.48774687533097394
+      },
+      "quaternion": {
+        "x": 0.004297029419892672,
+        "y": -0.006392911428190786,
+        "z": -0.6691446620861279,
+        "w": 0.7430922469137177
+      }
+    },
+    "attributes": {
+      "activity": "sitting/lying",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "9999f47d-cb7d-48c3-b141-a85a3b0eca27",
+    "objectId": "a2bb38e9-a5ff-4130-81da-7e679fd2d680",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.4277046851464708,
+        "width": 0.627437400280593,
+        "length": 0.6195969454328653
+      },
+      "center": {
+        "x": 10.403087730164328,
+        "y": -3.1260936855394115,
+        "z": -0.41034891745144286
+      },
+      "quaternion": {
+        "x": 0.022110857497152994,
+        "y": -0.022658586688250125,
+        "z": 0.7064754067745534,
+        "w": 0.7070291352219941
+      }
+    },
+    "attributes": {
+      "activity": "sitting/lying",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "10-40%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "66c01c0b-803e-4e80-b41d-4f0a18d95ab2",
+    "objectId": "ad279835-12aa-4719-9385-f396ca6345e3",
+    "className": "pedestrian",
+    "geometry": {
+      "size": {
+        "height": 1.8534490149795408,
+        "width": 0.6500134584067088,
+        "length": 0.5851676523981234
+      },
+      "center": {
+        "x": 27.204490181562246,
+        "y": 7.495965832703998,
+        "z": 0.5533844720090784
+      },
+      "quaternion": {
+        "x": -0.012191127196049208,
+        "y": -0.009247386600107325,
+        "z": 0.9888820242041426,
+        "w": -0.14791282724860483
+      }
+    },
+    "attributes": {
+      "activity": "stopped",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "41-80%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "f293d5d8-512d-4211-931f-59225555ec2a",
+    "objectId": "5ad1c55e-4fd8-4905-ad70-f0885db15d56",
+    "className": "rider",
+    "geometry": {
+      "size": {
+        "height": 1.5671137389069176,
+        "width": 0.7369056498364389,
+        "length": 0.9630995169544826
+      },
+      "center": {
+        "x": 7.1779989386629115,
+        "y": -1.0304578199886967,
+        "z": -0.4244585145865558
+      },
+      "quaternion": {
+        "x": -0.0015932683366730808,
+        "y": -0.015470199877383928,
+        "z": 0.9996263255514775,
+        "w": -0.022479850449075075
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  },
+  {
+    "id": "a0edf35e-27fb-4020-9c9e-285b29416f33",
+    "objectId": "f75c27ad-8f60-4011-831b-1c652c6f4a2f",
+    "className": "rider",
+    "geometry": {
+      "size": {
+        "height": 1.3352377544222949,
+        "width": 0.7251624912588659,
+        "length": 0.6489253431297309
+      },
+      "center": {
+        "x": 23.083067472932942,
+        "y": 1.567746953154146,
+        "z": -0.033752392128700404
+      },
+      "quaternion": {
+        "x": -0.01363062178562513,
+        "y": -0.01896160336165188,
+        "z": 0.9989964603530073,
+        "w": -0.03821957547978826
+      }
+    },
+    "attributes": {
+      "activity": "moving",
+      "lightning occlusion": "0-10%",
+      "spatial occlusion": "0-10%"
+    },
+    "sensor": "LIDAR"
+  }
+]
