@@ -1,6 +1,5 @@
 ## Dataset Preparation
-We suggest to organize the dataset in the following way:
-* -TODO maybe code here to create structure-
+We suggest to organize the dataset in the following way, which is also the format of how the dataset is provided:
 
 ```
 View-of-Delft-Dataset (root)
@@ -44,22 +43,17 @@ All the codes are tested in the following environment:
 
 ### Installation of the Devkit
 
-a. Clone this repository.
-```shell
-git clone https://github.com/tudelft-iv/view-of-delft-dataset
-```
+1. Clone the repository: `git@github.com:tudelft-iv/view-of-delft-dataset.git`
+2. Inside the root folder, use the `environment.yml` to create a new conda environment using: `conda env create -f environment.yml`
+3. Activate the environment using: `conda activate view-of-delft-env`
+4. In the same terminal windows typing `jupyter notebook` will start the notebook server.
 
-b. Create a virtual environtment with the requried dependencies:
-
-```shell
-# using pip
--TODO virtual env here-
-pip install -r requirements.txt
-
-# or using Conda
-conda create --name vod-dataset --file requirements.txt
-```
+In case the interactive plots do not show up in the notebooks use: `jupyter nbextension install --py --sys-prefix k3d`
 
 ### Usage
-After fetching both the data and the devkit, please refer to this [EXAMPLES](EXAMPLES.md) manual for several examples of how to use them, including data loading, fetching and applying transformations, and 2D/3D visualization.
+After fetching both the data and the devkit, please refer to these manuals for several examples of how to use them, including data loading, fetching and applying transformations, and 2D/3D visualization:
+[Frame Information](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/1_frame_information.ipynb)
+[Frame Transformations](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/2_frame_transformations.ipynb)
+[2D Visualization](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/3_2d_visualization.ipynb)
+
 
