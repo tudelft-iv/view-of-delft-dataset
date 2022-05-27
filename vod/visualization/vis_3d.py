@@ -1,7 +1,7 @@
 import k3d
 import numpy as np
 from .helpers import k3d_get_axes, get_transformed_3d_label_corners, k3d_plot_box, \
-    get_radar_velocity_vectors, get_default_camera
+    get_radar_velocity_vectors, get_default_camera, k3d_plot_mesh
 from vod.frame import FrameDataLoader, FrameTransformMatrix, FrameLabels, transform_pcl
 from .settings import *
 
@@ -180,12 +180,14 @@ This method plots the annotations in the requested frame.
         for box in bboxes:
             object_class = box['label_class']
 
-            object_class_color = class_colors[object_class]
-            object_class_width = class_width[object_class]
+            if object_class in class_colors:
+                object_class_color = class_colors[object_class]
+            else:
+                object_class_color = 0xAAAAAA
 
             corners_object = box['corners_3d_transformed']
 
-            k3d_plot_box(self.plot, corners_object, object_class_color, object_class_width)
+            k3d_plot_mesh(self.plot, corners_object, object_class_color)
 
     def draw_plot(self,
                   radar_origin_plot: bool = False,
@@ -250,4 +252,3 @@ This method displays the plot with the specified arguments.
 
             with open(f'{html_name}.html', 'w') as f:
                 f.write(data)
-

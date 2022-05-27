@@ -192,6 +192,27 @@ Function which returns an axis system in the requested frame based on the transf
     return pose_axes
 
 
+def k3d_plot_mesh(plot, box_corners, color):
+    box_mesh_index = np.asarray([
+        [0, 1, 2],  # bottom
+        [0, 2, 3],  # bottom
+        [0, 1, 5],  # front
+        [0, 5, 4],  # front
+        [2, 3, 7],  # back
+        [2, 7, 6],  # back
+        [1, 2, 6],  # right
+        [1, 6, 5],  # right
+        [0, 3, 7],  # left
+        [0, 7, 4],  # left
+        [4, 5, 6],  # top
+        [4, 6, 7],  # top
+        [0, 1, 5],  # front twice to be darker when opaque
+        [0, 5, 4],  # front
+    ], dtype=np.uint32)
+
+    plot += k3d.mesh(vertices=box_corners[:, 0:3], indices=box_mesh_index, color=color, opacity=0.25)
+
+
 def k3d_plot_box(plot, box_corners, color, width):
     lines = [[0, 1, 2, 3, 0], [4, 5, 6, 7, 4], [0, 4], [1, 5], [3, 7], [2, 6]]
 
