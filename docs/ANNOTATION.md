@@ -15,7 +15,7 @@ For now, we will provide the annotation in [KITTI format](https://github.com/bos
 
 Note that there are 3 important differences between VoD and KITTI labels:
 - **2D bounding boxes are automatically calculated**: Annotation was done in 3D on the LiDAR point cloud. While we provide the 2D bounding boxes in the KITTI formatted labels, these were calculated automatically by projecting the 3D bounding boxes to the camera plane, and assigning a minimum fit rectangle.
-- **Truncation**: We do not provide truncation information (it is always set to 0) for the same reason (no annotation in image plane).
+- **Truncation**: We do not provide truncation information (it is used for other meta data) for the same reason (no annotation in image plane). **Important:** please be sure not to use Truncation values in your evaluation, if you do not use the provided eval module, see [this issue](https://gitlab.tudelft.nl/intelligent-vehicles/view-of-delft-dataset/-/issues/27).
 - **Rotation**: the original KITTI devkit assumes that camera's and LiDAR's vertical axes (Y and Z) are parallel, just pointing to different directions. In our research vehicle however, the camera is slightly tilted. Thus for convenience, we define the rotation of objects around the LiDAR’s negative vertical ( -Z) axis. This is in fact what many open source library assumes anyway: that the LiDAR’s and camera’s vertical axes (Z and Y) are perfectly aligned.
 
 ```
