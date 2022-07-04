@@ -102,7 +102,7 @@ In case of questions of problems, please send an email to a.palffy at tudelft.nl
 
 ## Getting Started
 
-Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn how to organize the data and start using the development kit.
+Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn how to organize the data and start using the development kit, as well as find information regarding evaluation.
 <br>
 <br>
 

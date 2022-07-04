@@ -1,7 +1,0 @@
-vod
-===
-
-.. toctree::
-   :maxdepth: 4
-
-   vod

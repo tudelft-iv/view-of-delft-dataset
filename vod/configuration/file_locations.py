@@ -1,5 +1,6 @@
 import os
 
+
 class KittiLocations:
     """
     This class contains the information regarding the locations of data for the dataset.
