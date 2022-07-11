@@ -1,5 +1,3 @@
-# PP-Radar_readme
-
 # PP-Radar on VoD
 
 While 3+1D Radars do output a spatially three-dimensional point cloud, it is not very straightforward to train PointPillars on the radar point cloud using OpenPCDet. A few modifications are needed to adapt this library to our radar point cloud containing seven features per target - *[x, y, z, RCS, doppler, compensated_doppler, time]*.
