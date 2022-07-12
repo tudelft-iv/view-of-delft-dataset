@@ -74,7 +74,7 @@ DATA_PROCESSOR:
 
     - NAME: shuffle_points
       SHUFFLE_ENABLED: {
-        'train': True
+        'train': True,
         'test': False
       }
 
