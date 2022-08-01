@@ -432,7 +432,7 @@ __all__ = {
 
 ```
 
-## kitty_dataset.py
+## kitti_dataset.py
 
 While loading the point cloud from .bin files for radar, the get function needs to be modified at:
 
