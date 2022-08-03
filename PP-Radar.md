@@ -134,15 +134,15 @@ MODEL:
     NAME: PointPillar
 
     VFE:
-        NAME: RadarPillarVFE
-        WITH_DISTANCE: False
-        USE_ABSLOTE_XYZ: True
+        NAME: Radar7PillarVFE
+        USE_XYZ: True
         USE_RCS: True
-        USE_ELEVATION: True
         USE_VR: True
-        USE_VXYZ: False
+        USE_VR_COMP: True
         USE_TIME: True
         USE_NORM: True
+        USE_ELEVATION: True
+        USE_DISTANCE: False
         NUM_FILTERS: [64]
 
     MAP_TO_BEV:
