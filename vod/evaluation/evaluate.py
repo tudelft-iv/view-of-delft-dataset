@@ -41,7 +41,7 @@ class Evaluation:
         gt_annotations = kitti.get_label_annotations(self.test_annotation_file, val_image_ids)
 
         evaluation_result = {}
-        evaluation_result.update(get_official_eval_result(gt_annotations, dt_annotations, current_class))
+        evaluation_result.update(get_official_eval_result(gt_annotations, dt_annotations, current_class, custom_method=0))
         evaluation_result.update(get_official_eval_result(gt_annotations, dt_annotations, current_class, custom_method=3))
 
         return evaluation_result
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     evaluation = Evaluation(test_annotation_file=os.path.join('..', '..', 'example_set', 'label'))
 
     results = evaluation.evaluate(
-        result_path=os.path.join('..', '..', 'example_set', 'paper-val'),
+        result_path=os.path.join('..', '..', 'example_set', 'detection'),
         current_class=[0, 1, 2])
 
     print("Results: \n"
