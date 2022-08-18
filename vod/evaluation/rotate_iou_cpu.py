@@ -45,8 +45,11 @@ def sort_vertex_in_convex_polygon(int_pts, num_of_inter):
             v[0] = int_pts[2 * i] - center[0]
             v[1] = int_pts[2 * i + 1] - center[1]
             d = math.sqrt(v[0] * v[0] + v[1] * v[1])
-            v[0] = v[0] / d
-            v[1] = v[1] / d
+
+            if d != 0:
+                v[0] = v[0] / d
+                v[1] = v[1] / d
+
             if v[1] < 0:
                 v[0] = -2 - v[0]
             vs[i] = v[0]
