@@ -162,7 +162,7 @@ If you find the dataset useful in your research, please consider citing it as:
 
 ## Links
 - [Original paper](https://ieeexplore.ieee.org/document/9699098)
-- [The paper on Rearch Gate](https://www.researchgate.net/publication/358328092)
+- [The paper on Research Gate](https://www.researchgate.net/publication/358328092)
 - [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
 - [Visit our website](https://intelligent-vehicles.org/)
 - [Reach Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
