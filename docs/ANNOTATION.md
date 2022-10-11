@@ -34,6 +34,26 @@ Note that there are 3 important differences between VoD and KITTI labels:
    1    rotation     Rotation around -Z axis of the LiDAR sensor [-pi..pi]
 ```
 
+# Tracking IDs
+
+The labels in the original release do not include track ids. 
+If you are interested in the track ids, the zip file below has to be downloaded, and its content placed in the relevant location in: 
+<your root of view_of_delft>/lidar/training/label_2, overwriting the original labels. There is no other difference between the two sets of labels, all boxes are identical.
+
+Annotations with tracking IDs can be downloaded with this link:
+
+[https://surfdrive.surf.nl/files/index.php/s/CjKsQGz69uZKkNL](https://surfdrive.surf.nl/files/index.php/s/CjKsQGz69uZKkNL)
+
+Using your password received in email after registration.  
+
+We share the tracking IDs by overriding the standard's KITTI format's truncation value, see above, i.e. the first number after the class string.
+
+For example the following line in the annotations:
+
+```bicycle 1757 1 -0.5150583918601345 1692.8588 873.00977 1935.0 1064.7266 0.9959256326426174 0.4582897348611458 1.737482152677817 5.230204792744421 2.477337074657124 8.676091008791296 0.027439126666472635 1```
+
+means that this annotated bicycle is the 1757th object in the dataset, and this number will be its tracking id. This number is going to be consistent along frames, i.e., if the bicycle is visible later, it will have the same number printed at this location.  
+
 # Annotated area
 Any object of interest within 50 meters of the LiDAR sensor and partially or fully within the camera’s field of view (horizontal FoV: ±32°, vertical FoV: ± 22°). 
 was annotated.
@@ -53,5 +73,9 @@ was annotated.
 - Other ride
 - Other vehicle
 - Uncertain ride
+
+
+
+
 
 Annotation instructions will be available here soon (TODO).
