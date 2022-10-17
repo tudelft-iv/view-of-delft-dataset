@@ -103,6 +103,12 @@ After validating the researcher’s association to a research institue, we will 
 In case of questions of problems, please send an email to a.palffy at tudelft.nl.
 <br>
 <br>
+  
+**Frequently asked questions about the license:**
+- **Q**: Is it possible for MSc and PhD students to use the dataset if they work/cooperate with a for-profit organization?  
+**A**: The current VoD license **permits** the use of the VoD dataset of a MS/PhD student on the compute facilities (storing, processing) of his academic institution for research towards his degree - even if this MS/PhD student is (also) employed by a company.   
+The license **does not permit** the use of the VoD dataset on the compute facilities (storing, processing) of a for-profit organization.
+
 
 ---
 
