@@ -411,7 +411,7 @@ def calculate_iou_partly(gt_annotations, dt_annotations, metric, num_parts=50):
         gt_annotations_part = gt_annotations[example_idx:example_idx + num_part]
         dt_annotations_part = dt_annotations[example_idx:example_idx + num_part]
         if metric == 0:
-            gt_boxes = np.concatenate([(a["bbox"] + 0.01) for a in gt_annotations_part], 0)
+            gt_boxes = np.concatenate([(a["bbox"]) for a in gt_annotations_part], 0)
             dt_boxes = np.concatenate([a["bbox"] for a in dt_annotations_part], 0)
             overlap_part = image_box_overlap(gt_boxes, dt_boxes)
         elif metric == 1:
@@ -419,7 +419,7 @@ def calculate_iou_partly(gt_annotations, dt_annotations, metric, num_parts=50):
                 [a["location"][:, [0, 2]] for a in gt_annotations_part], 0)
             dims = np.concatenate(
                 [a["dimensions"][:, [0, 2]] for a in gt_annotations_part], 0)
-            rots = np.concatenate([(a["rotation_y"] + 0.01) for a in gt_annotations_part], 0)
+            rots = np.concatenate([(a["rotation_y"]) for a in gt_annotations_part], 0)
             gt_boxes = np.concatenate(
                 [loc, dims, rots[..., np.newaxis]], axis=1)
             loc = np.concatenate(
@@ -434,7 +434,7 @@ def calculate_iou_partly(gt_annotations, dt_annotations, metric, num_parts=50):
         elif metric == 2:
             loc = np.concatenate([a["location"] for a in gt_annotations_part], 0)
             dims = np.concatenate([a["dimensions"] for a in gt_annotations_part], 0)
-            rots = np.concatenate([(a["rotation_y"] + 0.01) for a in gt_annotations_part], 0)
+            rots = np.concatenate([(a["rotation_y"]) for a in gt_annotations_part], 0)
             gt_boxes = np.concatenate(
                 [loc, dims, rots[..., np.newaxis]], axis=1)
             loc = np.concatenate([a["location"] for a in dt_annotations_part], 0)
