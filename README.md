@@ -130,7 +130,7 @@ Please refer to this [EXAMPLES](docs/EXAMPLES.md) manual for several examples (J
 
 ## License
 
-* TODO the development kit is realeased under the TBD license.
+* The development kit is realeased under the Apache License, Version 2.0, see [here](LICENSE.txt).
 * The dataset can be used by accepting the [Research Use License](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/).
 <br>
 <br>
