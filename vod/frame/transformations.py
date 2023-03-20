@@ -322,7 +322,8 @@ This function projects the input 3d ndarray to a 2d ndarray, given a projection 
     uvw = projection_matrix.dot(points.T)
     uvw /= uvw[2]
     uvs = uvw[:2].T
-    uvs = np.round(uvs).astype(np.int)
+    # here int has changed to int64, because int in numpy was depreciated.
+    uvs = np.round(uvs).astype(np.int64)
 
     return uvs
 
