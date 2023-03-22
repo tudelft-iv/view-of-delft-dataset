@@ -11,7 +11,7 @@ Furthermore, same physical objects were assigned unique object ids over frames t
 
 
 # KITTI formatted labels
-For now, we will provide the annotation in [KITTI format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt).
+For now, we will provide the annotation in [KITTI format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt), in the camera frame.
 
 Note that there are 3 important differences between VoD and KITTI labels:
 - **2D bounding boxes are automatically calculated**: Annotation was done in 3D on the LiDAR point cloud. While we provide the 2D bounding boxes in the KITTI formatted labels, these were calculated automatically by projecting the 3D bounding boxes to the camera plane, and assigning a minimum fit rectangle.
