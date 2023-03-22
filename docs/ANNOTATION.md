@@ -38,7 +38,7 @@ Note that there are 3 important differences between VoD and KITTI labels:
 
 The labels in the original release do not include track ids. 
 If you are interested in the track ids, the zip file below has to be downloaded, and its content placed in the relevant location in: 
-<your root of view_of_delft>/lidar/training/label_2, overwriting the original labels. There is no other difference between the two sets of labels, all boxes are identical.  
+```<your root of view_of_delft>/lidar/training/label_2```, overwriting the original labels. There is no other difference between the two sets of labels, all boxes are identical.  
 
 Annotations with tracking IDs can be downloaded with [this link](https://surfdrive.surf.nl/files/index.php/s/CjKsQGz69uZKkNL).
 
