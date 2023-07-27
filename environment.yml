@@ -16,7 +16,7 @@ dependencies:
   - jinja2=3.0.3
   - jupyter_client=6.1.12
   - tqdm=4.62.2 # progress bars
-  - open3d=0.13.0 # 3D point cloud algorithms
+  - open3d
   - transforms3d=0.3.1
   - funcy=1.16 # for timing
   - nbqa=1.1.1 # code quality (jupyter notebooks)
