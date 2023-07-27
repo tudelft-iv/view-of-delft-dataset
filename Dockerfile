@@ -9,8 +9,8 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y git
 
-# Clone the git repository
-RUN git clone https://github.com/tudelft-iv/view-of-delft-dataset.git .
+# Clone the git repository from the eval-docker branch
+RUN git clone -b eval-docker https://github.com/tudelft-iv/view-of-delft-dataset.git .
 
 # Install any necessary dependencies
 RUN pip install numpy opencv-python-headless pandas sklearn seaborn
