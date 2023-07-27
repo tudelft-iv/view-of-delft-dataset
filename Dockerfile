@@ -17,11 +17,11 @@ COPY environment.yml .
 RUN conda env create -f environment.yml
 
 # Make RUN commands use the new environment:
-SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "view-of-delft-env", "/bin/bash", "-c"]
 
 # Ensure the environment is activated:
 RUN echo "Make sure the environment is activated: "
 RUN echo $CONDA_DEFAULT_ENV
 
 # Run evaluation_script.py when the container launches
-ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "python", "./evaluation_script.py"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "view-of-delft-env", "python", "./evaluation_script.py"]
