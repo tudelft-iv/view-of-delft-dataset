@@ -1,5 +1,5 @@
-# Use an official Python runtime as a parent image
-FROM python:3.9-slim-buster
+# Start from a core stack version
+FROM continuumio/miniconda3
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -12,8 +12,16 @@ RUN apt-get update && \
 # Clone the git repository from the eval-docker branch
 RUN git clone -b eval-docker https://github.com/tudelft-iv/view-of-delft-dataset.git .
 
-# Install any necessary dependencies
-RUN pip install numpy opencv-python-headless pandas sklearn seaborn
+# Create the environment:
+COPY environment.yml .
+RUN conda env create -f environment.yml
+
+# Make RUN commands use the new environment:
+SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+
+# Ensure the environment is activated:
+RUN echo "Make sure the environment is activated: "
+RUN echo $CONDA_DEFAULT_ENV
 
 # Run evaluation_script.py when the container launches
-ENTRYPOINT ["python", "./evaluation_script.py"]
+ENTRYPOINT ["conda", "run", "--no-capture-output", "-n", "myenv", "python", "./evaluation_script.py"]
