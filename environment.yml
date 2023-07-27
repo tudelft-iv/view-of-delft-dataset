@@ -25,7 +25,7 @@ dependencies:
   - flake8=3.9.2 # code quality
   - isort=5.9.3 # code quality
   - pip=21.2.4
-  - numba
+  - numba=0.55.2
   - pip:
     - ipynb==0.5.1
     - black[jupyter]==21.7b0
