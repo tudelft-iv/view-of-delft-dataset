@@ -447,6 +447,11 @@ points = np.fromfile(str(lidar_file), dtype=np.float32).reshape(-1, number_of_ch
 means = [0, 0, 0, 0, 0, 0, 0]  # 'x', 'y', 'z', 'rcs', 'v_r', 'v_r_comp', 'time'
 stds =  [1, 1, 1, 1, 1, 1, 1]  # 'x', 'y', 'z', 'rcs', 'v_r', 'v_r_comp', 'time'
 
+#in practice, you should use either train, or train+val values to calculate mean and stds. Note that x, y, z, and time are not normed, but you can experiment with that.
+#means = [0, 0, 0, mean_RCS (~ -13.0), mean_v_r (~-3.0), mean_vr_comp (~ -0.1), 0]  # 'x', 'y', 'z', 'rcs', 'v_r', 'v_r_comp', 'time'
+#stds =  [1, 1, 1, std_RCS (~14.0),  std_v_r (~8.0),    std_v_r_comp (~6.0), 0]  # 'x', 'y', 'z', 'rcs', 'v_r', 'v_r_comp', 'time'
+
+
 #we then norm the channels
 points = (points - means)/stds
 
