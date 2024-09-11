@@ -170,6 +170,20 @@ If you find the dataset useful in your research, please consider citing it as:
   pages={4961-4968},
   doi={10.1109/LRA.2022.3147324}}
 ```
+
+The View-of-Delft Prediction dataset can be cited as:
+```
+@article{boekema2024vodp,
+  author={Boekema, Hidde J-H. and Martens, Bruno K.W. and Kooij, Julian F.P. and Gavrila, Dariu M.},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Multi-class Trajectory Prediction in Urban Traffic using the View-of-Delft Prediction Dataset}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Trajectory;Roads;Annotations;Semantics;Pedestrians;Predictive models;History;Datasets for Human Motion;Data Sets for Robot Learning;Deep Learning Methods},
+  doi={10.1109/LRA.2024.3385693}}
+```
 <br>
 <br>
 
