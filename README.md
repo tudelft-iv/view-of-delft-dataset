@@ -35,7 +35,7 @@ This repository shares the documentation and development kit of the View of Delf
 ## Changelog
 [2022-07-11] Added [guidelines](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/PP-Radar.md) to train PointPillars on the 3+1D Radar point cloud using OpenPCDet.  
 [2022-10-11] Added tracking IDs to annotations, see [here](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/docs/ANNOTATION.md#tracking-ids).   
-[2024-09-11] Released View-of-Delft Prediction (VoD-P) dataset and development kit.
+[2024-09-11] Released the View-of-Delft Prediction (VoD-P) dataset and development kit.
 
 ---
 
@@ -180,7 +180,7 @@ If you find the dataset useful in your research, please consider citing it as:
 - [View-of-Delft paper](https://ieeexplore.ieee.org/document/9699098)
 - [View-of-Delft paper on Research Gate](https://www.researchgate.net/publication/358328092)
 - [View-of-Delft Prediction paper](https://ieeexplore.ieee.org/document/10493110)
-- [View-of-Delft Prediction paper on Research Gate]([https://www.researchgate.net/publication/358328092)](https://www.researchgate.net/publication/379632092_Multi-class_Trajectory_Prediction_in_Urban_Traffic_using_the_View-of-Delft_Prediction_Dataset)
+- [View-of-Delft Prediction paper on Research Gate](https://www.researchgate.net/publication/379632092_Multi-class_Trajectory_Prediction_in_Urban_Traffic_using_the_View-of-Delft_Prediction_Dataset)
 - [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
 - [Visit our website](https://intelligent-vehicles.org/)
 - [Research Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
