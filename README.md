@@ -178,9 +178,9 @@ The View-of-Delft Prediction dataset can be cited as:
   journal={IEEE Robotics and Automation Letters}, 
   title={Multi-class Trajectory Prediction in Urban Traffic using the View-of-Delft Prediction Dataset}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-8},
+  volume={9},
+  number={5},
+  pages={4806-4813},
   keywords={Trajectory;Roads;Annotations;Semantics;Pedestrians;Predictive models;History;Datasets for Human Motion;Data Sets for Robot Learning;Deep Learning Methods},
   doi={10.1109/LRA.2024.3385693}}
 ```
