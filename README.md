@@ -85,7 +85,9 @@ For details about the sensors, the data streams, and the format of of the provid
 
 ## Annotation
 
-The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. The prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
+The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
+
+The prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. Refer to the [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit) for more information.
 <br>
 <br>
 
@@ -99,7 +101,7 @@ The dataset is made freely available for non-commercial research purposes only. 
 
 By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license). See furthermore our [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
 
-After validating the researcher’s association to a research institue, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
+After validating the researcher’s association to a research institute, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
 
 In case of questions of problems, please send an email to a.palffy at tudelft.nl.
 <br>
