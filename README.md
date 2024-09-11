@@ -41,7 +41,7 @@ This repository shares the documentation and development kit of the View of Delf
 
 ## Introduction
 
-The View-of-Delft (VoD) dataset is a novel automotive dataset containing 8600 frames of synchronized and calibrated 64-layer LiDAR-, (stereo) camera-, and 3+1D radar-data acquired in complex, urban traffic. It consists of more than 123000 3D bounding box annotations, including more than 26000 pedestrian, 10000 cyclist and 26000 car labels.
+The View-of-Delft (VoD) dataset is a novel automotive dataset containing 8600 frames of synchronized and calibrated 64-layer LiDAR-, (stereo) camera-, and 3+1D radar-data acquired in complex, urban traffic. It consists of more than 123000 3D bounding box annotations, including more than 26000 pedestrian, 10000 cyclist and 26000 car labels.   
 
 <div align="center">
 <p float="center">
@@ -73,7 +73,7 @@ We recorded the output of the following sensors:
 
 All sensors were jointly calibrated. See the figure below for a general overview of the sensor setup.
 
-For details about the sensors, the data streams, and the format of of the provided data, please refer to the [SENSORS and DATA](docs/SENSORS_AND_DATA.md) documentation.
+For details about the sensors, the data streams, and the format of the provided data, please refer to the [SENSORS and DATA](docs/SENSORS_AND_DATA.md) documentation.
 
 <div align="center">
 <img src="docs/figures/Prius_sensor_setup_5.png" alt="Prius sensor setup" width="600"/>
@@ -87,7 +87,7 @@ For details about the sensors, the data streams, and the format of of the provid
 
 The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
 
-The prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. Refer to the [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit) for more information.
+The trajectory prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. For more information, refer to the [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit).
 <br>
 <br>
 
@@ -101,9 +101,9 @@ The dataset is made freely available for non-commercial research purposes only. 
 
 By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license). See furthermore our [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
 
-After validating the researcher’s association to a research institute, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
+After validating the researcher’s association with a research institute, we will send an email containing password-protected download link(s) for the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
 
-In case of questions of problems, please send an email to a.palffy at tudelft.nl.
+In case of questions or problems, please send an email to viewofdelftdataset@gmail.com.
 <br>
 <br>
   
@@ -123,7 +123,7 @@ Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn h
 
 ### Trajectory Prediction
 
-Please refer to the dedicated [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit).
+Please refer to the dedicated [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit) to get started with the trajectory prediction dataset.
 <br>
 <br>
 
@@ -177,8 +177,10 @@ If you find the dataset useful in your research, please consider citing it as:
 
 
 ## Links
-- [Original paper](https://ieeexplore.ieee.org/document/9699098)
-- [The paper on Research Gate](https://www.researchgate.net/publication/358328092)
+- [View-of-Delft paper](https://ieeexplore.ieee.org/document/9699098)
+- [View-of-Delft paper on Research Gate](https://www.researchgate.net/publication/358328092)
+- [View-of-Delft Prediction paper](https://ieeexplore.ieee.org/document/10493110)
+- [View-of-Delft Prediction paper on Research Gate]([https://www.researchgate.net/publication/358328092)](https://www.researchgate.net/publication/379632092_Multi-class_Trajectory_Prediction_in_Urban_Traffic_using_the_View-of-Delft_Prediction_Dataset)
 - [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
 - [Visit our website](https://intelligent-vehicles.org/)
 - [Research Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
