@@ -114,6 +114,8 @@ The license **does not permit** the use of the VoD dataset on the compute facili
 
 ## Getting Started
 
+### Object Detection
+
 Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn how to organize the data and start using the development kit, as well as find information regarding evaluation.
 <br>
 <br>
