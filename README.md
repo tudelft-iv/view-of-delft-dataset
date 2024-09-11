@@ -85,7 +85,7 @@ For details about the sensors, the data streams, and the format of of the provid
 
 ## Annotation
 
-The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
+The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. The prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
 <br>
 <br>
 
@@ -122,7 +122,6 @@ Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn h
 ### Trajectory Prediction
 
 Please refer to the dedicated [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit).
-
 <br>
 <br>
 
