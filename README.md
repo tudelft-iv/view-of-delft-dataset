@@ -35,7 +35,7 @@ This repository shares the documentation and development kit of the View of Delf
 ## Changelog
 [2022-07-11] Added [guidelines](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/PP-Radar.md) to train PointPillars on the 3+1D Radar point cloud using OpenPCDet.  
 [2022-10-11] Added tracking IDs to annotations, see [here](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/docs/ANNOTATION.md#tracking-ids).   
-[2024-09-11] Released the View-of-Delft Prediction (VoD-P) dataset and development kit.
+[2024-09-11] Released the View-of-Delft Prediction (VoD-P) dataset and [development kit](https://github.com/tudelft-iv/vod-devkit).
 
 ---
 
