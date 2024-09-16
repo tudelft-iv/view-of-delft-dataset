@@ -2,7 +2,7 @@
 
 This page contains a guide to get started with the View-of-Delft dataset for object detection (i.e. the dataset in KITTI format).
 
-For the View-of-Delft Prediction dataset (i.e. the dataset in nuScenes format), please go to https://github.com/tudelft-iv/vod-devkit/blob/main/README.md.
+For the View-of-Delft Prediction dataset (i.e. the dataset in nuScenes format), please go to https://github.com/tudelft-iv/vod-devkit.
 
 ## Dataset Preparation
 We suggest to organize the dataset in the following way, which is also the format of how the dataset is provided:
