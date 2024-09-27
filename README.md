@@ -1,8 +1,8 @@
 <img src="docs/figures/LOGO.png" align="right" width="20%">
 
-# The View of Delft dataset
+# The View-of-Delft Detection Benchmark
 
-This repository shares the documentation and development kit of the View of Delft automotive dataset.
+This repository shares the documentation and development kit of the View-of-Delft object detection benchmark.
 
 <div align="center">
 <figure>
@@ -35,7 +35,6 @@ This repository shares the documentation and development kit of the View of Delf
 ## Changelog
 [2022-07-11] Added [guidelines](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/PP-Radar.md) to train PointPillars on the 3+1D Radar point cloud using OpenPCDet.  
 [2022-10-11] Added tracking IDs to annotations, see [here](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/docs/ANNOTATION.md#tracking-ids).   
-[2024-09-11] Released the View-of-Delft Prediction (VoD-P) dataset and [development kit](https://github.com/tudelft-iv/vod-devkit).
 
 ---
 
@@ -86,8 +85,6 @@ For details about the sensors, the data streams, and the format of the provided 
 ## Annotation
 
 The dataset contains 3D bounding box annotations for 13 road user classes with occlusion, activity, information, along with a track id to follow objects across frames. For more details, please refer to the [Annotation](docs/ANNOTATION.md) documentation.
-
-The trajectory prediction dataset additionally has semantic map annotations for road elements such as lanes and sidewalks. For more information, refer to the [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit).
 <br>
 <br>
 
@@ -95,35 +92,15 @@ The trajectory prediction dataset additionally has semantic map annotations for 
 
 ## Access
 
-The dataset is made freely available for non-commercial research purposes only. Eligibility to use the dataset is limited to Master- and PhD-students, and staff of academic and non-profit research institutions. Access will be possible to request by filling this form:  
-
-[**Form to request access to the VoD dataset**](https://forms.gle/fFz5EwPb7zqex9kX8)
-
-By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license). See furthermore our [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
-
-After validating the researcher’s association with a research institute, we will send an email containing password-protected download link(s) for the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
-
-In case of questions or problems, please send an email to viewofdelftdataset@gmail.com.
+For access, go to the [main dataset page](https://intelligent-vehicles.org/datasets/view-of-delft).
 <br>
 <br>
-  
-**Frequently asked questions about the license:**
-- **Q**: Is it possible for MSc and PhD students to use the dataset if they work/cooperate with a for-profit organization?  
-**A**: The current VoD license **permits** the use of the VoD dataset of a MS/PhD student on the compute facilities (storing, processing) of his/her academic institution for research towards his/her degree - even if this MS/PhD student is (also) employed by a company.   
-The license **does not permit** the use of the VoD dataset on the compute facilities (storing, processing) of a for-profit organization.
-
 
 ---
 
 ## Getting Started
 
-### Object Detection
-
 Please refer to the [GETTING_STARTED](docs/GETTING_STARTED.md) manual to learn how to organize the data and start using the development kit, as well as find information regarding evaluation.
-
-### Trajectory Prediction
-
-Please refer to the dedicated [View-of-Delft Prediction development kit](https://github.com/tudelft-iv/vod-devkit) to get started with the trajectory prediction dataset.
 <br>
 <br>
 
@@ -171,19 +148,6 @@ If you find the dataset useful in your research, please consider citing it as:
   doi={10.1109/LRA.2022.3147324}}
 ```
 
-The View-of-Delft Prediction dataset can be cited as:
-```
-@article{boekema2024vodp,
-  author={Boekema, Hidde J-H. and Martens, Bruno K.W. and Kooij, Julian F.P. and Gavrila, Dariu M.},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={Multi-class Trajectory Prediction in Urban Traffic using the View-of-Delft Prediction Dataset}, 
-  year={2024},
-  volume={9},
-  number={5},
-  pages={4806-4813},
-  keywords={Trajectory;Roads;Annotations;Semantics;Pedestrians;Predictive models;History;Datasets for Human Motion;Data Sets for Robot Learning;Deep Learning Methods},
-  doi={10.1109/LRA.2024.3385693}}
-```
 <br>
 <br>
 
@@ -193,8 +157,6 @@ The View-of-Delft Prediction dataset can be cited as:
 ## Links
 - [View-of-Delft paper](https://ieeexplore.ieee.org/document/9699098)
 - [View-of-Delft paper on Research Gate](https://www.researchgate.net/publication/358328092)
-- [View-of-Delft Prediction paper](https://ieeexplore.ieee.org/document/10493110)
-- [View-of-Delft Prediction paper on Research Gate](https://www.researchgate.net/publication/379632092_Multi-class_Trajectory_Prediction_in_Urban_Traffic_using_the_View-of-Delft_Prediction_Dataset)
 - [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
 - [Visit our website](https://intelligent-vehicles.org/)
 - [Research Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
