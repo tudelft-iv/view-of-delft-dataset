@@ -73,7 +73,7 @@ was annotated.
 - Uncertain ride
 
 
-
+**Please note that while sensor data of the test set frames is available for the public, the labels for these frames are not, thus you fill find fewer files in the label folder than in the sensors folder!** 
 
 
 Annotation instructions will be available here soon (TODO).
