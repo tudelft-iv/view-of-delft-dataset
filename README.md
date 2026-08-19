@@ -33,6 +33,7 @@ This repository shares the documentation and development kit of the View of Delf
 ---
 
 ## Changelog
+[2026-08-19] Added new access **request procedure and benchmark site** - it is no longer the google form link!  
 [2022-07-11] Added [guidelines](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/PP-Radar.md) to train PointPillars on the 3+1D Radar point cloud using OpenPCDet.  
 [2022-10-11] Added tracking IDs to annotations, see [here](https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/docs/ANNOTATION.md#tracking-ids).
 
@@ -92,15 +93,15 @@ The dataset contains 3D bounding box annotations for 13 road user classes with o
 
 ## Access
 
-The dataset is made freely available for non-commercial research purposes only. Eligibility to use the dataset is limited to Master- and PhD-students, and staff of academic and non-profit research institutions. Access will be possible to request by filling this form:  
+The dataset is made freely available for non-commercial research purposes only. Eligibility to use the dataset is limited to Master- and PhD-students, and staff of academic and non-profit research institutions. Access will be possible using this website:  
 
-[**Form to request access to the VoD dataset**](https://forms.gle/fFz5EwPb7zqex9kX8)
+[**Request access to the VoD dataset**](https://viewofdelft-dataset.tudelft.nl/)
 
 By requesting access, the researcher agrees to use and handle the data according to the [license](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license). See furthermore our [privacy statement](https://intelligent-vehicles.org/datasets/view-of-delft/privacy-statement).
 
-After validating the researcher’s association to a research institue, we will send an email containing password protected download link(s) of the VoD dataset. Sharing these links and/or the passwords is strictly forbidden (see licence).
+Sharing these links and/or the passwords is strictly forbidden (see licence).
 
-In case of questions of problems, please send an email to a.palffy at tudelft.nl.
+In case of questions of problems, please send an email to r.m.ensing at tudelft.nl.
 <br>
 <br>
   
@@ -172,6 +173,7 @@ If you find the dataset useful in your research, please consider citing it as:
 - [The paper on Research Gate](https://www.researchgate.net/publication/358328092)
 - [Demo video of the dataset](https://youtu.be/R8r3lrkicJ0)
 - [Visit our website](https://intelligent-vehicles.org/)
+- [Get access and submit results](https://viewofdelft-dataset.tudelft.nl/)
 - [Research Use Licence](https://intelligent-vehicles.org/datasets/view-of-delft/view-of-delft-dataset-research-use-license/)
 
 
