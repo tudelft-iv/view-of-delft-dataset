@@ -252,11 +252,11 @@ def instance_iou_eval(rbox1, rbox2, criterion=-1):
     area_inter = inter(rbox1, rbox2)
 
     if criterion == -1:
-        return area_inter / (area1 + area2 - area_inter)
+        return area_inter / (area1 + area2 - area_inter + 1e-9)
     elif criterion == 0:
-        return area_inter / area1
+        return area_inter / (area1 + 1e-9)
     elif criterion == 1:
-        return area_inter / area2
+        return area_inter / (area2 + 1e-9)
     else:
         return area_inter
 
