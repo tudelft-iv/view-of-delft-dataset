@@ -49,10 +49,14 @@ class Evaluation:
 
 if __name__ == '__main__':
 
-    evaluation = Evaluation(test_annotation_file=os.path.join('..', '..', 'example_set', 'label'))
+
+    #evaluation = Evaluation(test_annotation_file=os.path.join('..', '..', 'example_set', 'label'))
+    evaluation = Evaluation(test_annotation_file=os.path.join('..', '..', 'E:/vod/view_of_delft_PUBLIC', 'label'))
 
     results = evaluation.evaluate(
-        result_path=os.path.join('..', '..', 'example_set', 'detection'),
+        #result_path=os.path.join('..', '..', 'example_set', 'detection'),
+        result_path=os.path.join('..', '..', 'E:/vod/view_of_delft_PUBLIC', 'detection'),
+
         current_class=[0, 1, 2])
 
     print("Results: \n"
