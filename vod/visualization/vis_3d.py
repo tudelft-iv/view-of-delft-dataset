@@ -11,7 +11,11 @@ class Visualization3D:
     This class is responsible for creating 3D plots inside Jupyter notebooks using the k3d library.
     """
 
-    def __init__(self, frame_data: FrameDataLoader, origin='camera'):
+    def __init__(self, 
+                 frame_data: FrameDataLoader, 
+                 classes_visualized: list = ['Cyclist', 'Pedestrian', 'Car'],
+                 origin = 'camera'
+                 ):
         """
 Constructor which prepared the 3D plot in the requested frame.
         :param frame_data:
@@ -19,6 +23,8 @@ Constructor which prepared the 3D plot in the requested frame.
         self.plot = None
         self.frame_data = frame_data
         self.frame_transforms = FrameTransformMatrix(self.frame_data)
+
+        self.classes_visualized = classes_visualized
 
         self.origin = origin
 
@@ -178,6 +184,38 @@ This method plots the annotations in the requested frame.
                                                   self.frame_transforms.t_camera_lidar)
 
         for box in bboxes:
+            if box['label_class'] not in self.classes_visualized:
+                continue
+
+            object_class = box['label_class']
+
+            object_class_color = class_colors[object_class]
+            object_class_width = class_width[object_class]
+
+            corners_object = box['corners_3d_transformed']
+
+            k3d_plot_box(self.plot, corners_object, object_class_color, object_class_width)
+
+    def plot_detections(self, class_colors=label_color_palette_3d, class_width=label_line_width_3d, score_threshold=0):
+        """
+This method plots the annotations in the requested frame.
+        :param class_colors: Dictionary that contains the colors for the annotations.
+        :param class_width: Dictionary that contains the line width for the annotations.
+        :param score_threshold: The minimum score to be rendered.
+        """
+        labels: FrameLabels = FrameLabels(self.frame_data.predictions)
+
+        bboxes = get_transformed_3d_label_corners(labels,
+                                                  self.transform_matrices['lidar'],
+                                                  self.frame_transforms.t_camera_lidar)
+
+        for box in bboxes:
+            if box['label_class'] not in self.classes_visualized:
+                continue
+
+            if box['score'] < score_threshold:
+                continue
+
             object_class = box['label_class']
 
             object_class_color = class_colors[object_class]
@@ -195,6 +233,8 @@ This method plots the annotations in the requested frame.
                   radar_points_plot: bool = False,
                   radar_velocity_plot: bool = False,
                   annotations_plot: bool = False,
+                  detections_plot: bool = False,
+                  score_threshold: float = 0,
                   write_to_html: bool = False,
                   html_name: str = "example",
                   grid_visible: bool = False,
@@ -237,6 +277,9 @@ This method displays the plot with the specified arguments.
 
         if annotations_plot:
             self.plot_annotations()
+
+        if detections_plot:
+            self.plot_detections(score_threshold=score_threshold)
 
         if not auto_frame:
             self.plot.camera = get_default_camera(self.transform_matrices['lidar'])
